@@ -3,6 +3,7 @@ import pandas as pd
 
 st.title("Data App Assignment")
 
+# Displaying input data and examples
 st.write("### Input Data and Examples")
 df = pd.read_csv("Superstore_Sales_utf8.csv", parse_dates=["Order_Date"])
 st.dataframe(df)
